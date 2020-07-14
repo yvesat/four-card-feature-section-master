@@ -1,0 +1,138 @@
+* {
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+    background-color: hsl(0, 0%, 98%);
+}
+
+
+h2 {
+    font-weight: bold;
+    color: hsl(234, 12%, 34%);
+    font-size: 20px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+p {
+    margin: 15px 0px;
+}
+
+#main {
+    margin: 0px auto;
+}
+
+/* Header Styling Section Start*/
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 160px;
+    width: 410px;
+    margin: 60px auto;
+}
+
+#header>h1 {
+    font-size: 30px;
+}
+
+#header>h2 {
+    font-size: 30px;
+}
+
+/* Header Styling Section End*/
+
+/*Main Styling Section Start*/
+
+#card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#center-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px 10px hsl(201, 11%, 80%);
+    padding: 25px;
+    margin: 20px;
+}
+
+img {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    align-self: flex-end;
+}
+
+.cyan {
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.red {
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.orange {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.blue {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+/*Main Styling Section End*/
+
+/*Footer Styling Section Start*/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/*Footer Styling End*/
+
+@media only screen and  (max-width: 900px) {
+    
+    #header {
+        width: 300px;
+    }
+
+    #header>h1 {
+        font-size: 20px;
+    }
+    
+    #header>h2 {
+        font-size: 20px;
+    }
+
+    #card-container {
+        flex-direction: column;
+    }
+}
